@@ -14,38 +14,42 @@
     header {
         background: #ffcc00;
         color: #000;
-        padding: 20px;
+        padding: 25px;
         text-align: center;
-        font-size: 22px;
+        font-size: 26px;
         font-weight: bold;
     }
-    .section {
-        padding: 40px;
+    section {
+        padding: 35px;
         text-align: center;
     }
-    .btn {
-        display: inline-block;
-        padding: 12px 20px;
-        background: #ffcc00;
-        color: black;
-        font-weight: bold;
-        text-decoration: none;
-        border-radius: 10px;
-        margin-top: 15px;
-    }
-    .social-icons a {
+    h2 {
         color: #ffcc00;
-        font-size: 20px;
+    }
+    .box {
+        background: #1a1a1a;
+        padding: 18px;
+        margin: 12px auto;
+        width: 90%;
+        border-left: 4px solid #ffcc00;
+        border-radius: 8px;
+        text-align: left;
+    }
+    .social a {
         display: block;
-        margin: 8px 0;
+        background: #ffcc00;
+        color: #000;
         text-decoration: none;
+        padding: 10px;
+        margin: 8px auto;
+        width: 250px;
         font-weight: bold;
+        border-radius: 6px;
     }
     footer {
-        background: #111;
         text-align: center;
-        padding: 15px;
-        font-size: 14px;
+        padding: 12px;
+        background: #111;
         color: #ffcc00;
     }
 </style>
@@ -53,21 +57,90 @@
 <body>
 
 <header>
-    VIDIGAL RJ ROLEPLAY
+👑 VIDIGAL RJ ROLEPLAY
 </header>
 
-<div class="section">
-    <h2>Servidor de SAMP Roleplay inspirado nas comunidades do RJ 🇧🇷🔥</h2>
-    <p>Entre para o crime, faça história, ganhe respeito! 🎯</p>
-    <a class="btn" href="#">Entrar no Servidor</a>
-</div>
+<section>
+    <h2>BEM-VINDO AO VIDIGAL RJ ROLEPLAY</h2>
+    <p>O servidor mais brabo das favelas do RJ! 🔥<br>
+    🎮 Android / PC — 🎙️ VOIP ON</p>
+</section>
 
-<hr style="border-color: #ffcc00; width: 85%;">
+<section>
+    <h2>👔 DONOS / FUNDADORES</h2>
+    <div class="box">
+        <p>1️⃣ mateus_sa<br>
+        2️⃣ Henrique_W7<br>
+        3️⃣ Ares.NS<br>
+        4️⃣ BK_MOEDAS<br>
+        5️⃣ MB_YT</p>
+    </div>
+</section>
 
-<div class="section">
-    <h2>Contato & Redes Oficiais 📱</h2>
+<section>
+    <h2>🚨 VAGAS ABERTAS</h2>
+    <div class="box">
+        💼 Líderes de ORGs — ✅ ABERTAS<br>
+        👮‍♂️ Líderes de CORPS — ✅ ABERTAS<br>
+        ⚙️ ADMINS / STAFF — ❌ FECHADAS
+    </div>
+</section>
 
-    <div class="social-icons">
-        <a href="#">📌 Discord Oficial</a>
-        <a href="#
-	
+<section>
+    <h2>💿 ATUALIZAÇÕES E SISTEMAS</h2>
+    <div class="box">
+        ✨ Atualizações frequentes<br>
+        🚗 Veículos exclusivos<br>
+        💰 Economia equilibrada<br>
+        🎯 Eventos semanais<br>
+        🎙️ VOIP Ativo<br>
+        🔥 Android e PC
+    </div>
+</section>
+
+<section>
+    <h2>🌍 INFORMAÇÕES DO SERVIDOR</h2>
+    <div class="box">
+        🛜 Nome: VIDIGAL RJ ROLEPLAY<br>
+        🌐 IP: 181.215.45.122:7777<br>
+        📋 Categoria: Roleplay (RP)<br>
+        🟢 Status: Online 24h
+    </div>
+</section>
+
+<section>
+    <h2>🎁 BÔNUS PARA NOVATOS</h2>
+    <div class="box">
+        /BONUSNOVATOS:<br>
+        🏍️ Moto SWAN — 💰 30.000 — ⭐ Level 10 — 💎 3.000 coins<br>
+        ❤️ 100 Vida — 🛡️ 60 Colete — 🎵 Música na tela
+    </div>
+</section>
+
+<section>
+    <h2>💬 REDES OFICIAIS</h2>
+    <div class="social">
+        <a href="https://chat.whatsapp.com/HDkTNDzclpd4yhlplFpJ88">Grupo WhatsApp</a>
+        <a href="https://whatsapp.com/channel/0029Vb72407Lo4he637cS73a">Canal WhatsApp</a>
+        <a href="https://discord.gg/XA2NQmN3g4">Discord Oficial</a>
+    </div>
+</section>
+
+<section>
+    <h2>🚫 REGRAS DO SERVIDOR</h2>
+    <div class="box">
+        ❌ Ofensas / Xingamentos<br>
+        ❌ +18 / Flood / Spam<br>
+        ❌ Pedir cargo / Mandar PM pra ADM<br>
+        🚫 Divulgar outros servidores<br>
+        🚫 Links sem permissão<br><br>
+        ✔️ VIP / Coins → Discord ou Fundadores
+    </div>
+</section>
+
+<footer>
+© 2025 VIDIGAL RJ ROLEPLAY
+</footer>
+
+</body>
+</html>
