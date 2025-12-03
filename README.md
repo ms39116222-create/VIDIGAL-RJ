@@ -144,3 +144,83 @@
 
 </body>
 </html>
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background: #ffcc00;
+    color: #111;
+    padding: 25px;
+    font-weight: bold;
+}
+
+.card {
+    background: #222;
+    margin: 25px auto;
+    padding: 20px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+.ip-box {
+    background: #ffcc00;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #111;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ip-box:hover {
+    opacity: 0.8;
+}
+
+.copiado {
+    display: none;
+    color: #00ff7f;
+    margin-top: 10px;
+}
+
+.links {
+    margin: 20px;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 14px;
+    width: 85%;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #111;
+}
+
+.whats { background: #25D366; }
+.canal { background: #ffcc00; color: #111; }
+.discord { background: #5865F2; color: #fff; }
+
+footer {
+    background: #000;
+    padding: 12px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+function copyIP() {
+    navigator.clipboard.writeText("181.215.45.122:7777");
+    document.getElementById("copiadoMsg").style.display = "block";
+    setTimeout(() => {
+        document.getElementById("copiadoMsg").style.display = "none";
+    }, 2500);
+}
+
